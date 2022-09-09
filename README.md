@@ -1,5 +1,4 @@
-# Portfolio-React
-
+# Taskinator
 ![contributors-shield](https://img.shields.io/github/contributors/btking1/README-Generator?style=for-the-badge)
 ![forks-shield](https://img.shields.io/github/forks/btking1/README-Generator?style=for-the-badge)
 ![stars-shield](https://img.shields.io/github/stars/btking1/README-Generator?style=for-the-badge)
@@ -10,53 +9,47 @@
 ## Description
 
 <br/>
-
-Portfolio of web development projects I've created by combining my frontend and backend skills. Featured projects include ImagineAi, 
-investment dashboard portfolio, and a tech blog. 
-
+   
+Application that breaks to-do list categories into Tasks To Do, Tasks In Progress, and Tasks Completed 
 
 <br/>
 
-
-
-<br/>
-
-    - Built with:
+    - Built with: 
         * JavaScript
-        * NodeJS
-        * React
         * HTML
         * CSS
-        * Material UI
+        
+<br/>
+
+## Usage
+
+<br/>
+
+Tasks added to Taskinator are stored locally using localstorage from the browser API. Additional features include editing and deleting a task
+*clear cachge
+
+```javascript 
+
+localStorage.setItem("tasks", JSON.stringify(tasks));
+
+````
+
 
 <br/>
 
 
-## Features
+
+![SCREENSHOOT](https://github.com/btking1/taskinator/blob/main/assets/images/Screenshot.jpg)
 
 <br/>
 
-    - Get to know more about me and my design process
-    - Home, About, Works, Contact, and Resume pages using React Routes 
-    
-
-<br/>
-
-
-<img src="https://github.com/btking1/Portfolio-React/blob/main/Screenshots/Screenshot.jpg?raw=true" alt="budget tracker" title="screenshot" width="auto" height="400vh" /> 
-
-<br/>
-
-[Porfolio](https://btking1.github.io/Portfolio-React/)
-
-
-
-
-<br/>
 
 ## Questions
 
-If you have any questions, please feel free to contact me.
+<br/>
 
--   GitHub: [btking1](https://github.com/btking1)
--   Email: btking1@gmail.com
+For more information about the project you can go
+to my GitHub page at the following Link:
+
+- GitHub: [github.com/btking1](https://github.com/btking1)
+- Email: btking1@gmail.com
